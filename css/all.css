@@ -13651,6 +13651,10 @@ a:hover {
   background-color: #FF5D50;
 }
 
+.btn-theme {
+  background-color: #56C4C5;
+}
+
 .hero {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -13733,6 +13737,10 @@ main .row p {
 .role .card {
   overflow: hidden;
 }
+.role .card .card-body {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
 .role .role_title {
   color: #221E1F;
   font-size: 32px;
@@ -13747,10 +13755,13 @@ main .row p {
   font-size: 16px;
   color: #56C4C5;
   font-weight: bold;
+  color: #221E1F;
 }
 .role p {
-  padding-top: 16px;
   color: #221E1F;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .service .service-item li:nth-child(1), .service .service-item li:nth-child(2) {
@@ -13772,6 +13783,7 @@ main .row p {
 .service h5 {
   padding-top: 24px;
   font-weight: bold;
+  color: #221E1F;
 }
 .service p {
   padding-top: 16px;
