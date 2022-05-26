@@ -13806,3 +13806,8 @@ main .row p {
   padding-top: 16px;
   margin-bottom: 24px;
 }
+
+.evaluation h2 {
+  color: #221E1F;
+  font-weight: bold;
+}
