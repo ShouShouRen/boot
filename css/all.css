@@ -13810,4 +13810,23 @@ main .row p {
 .evaluation h2 {
   color: #221E1F;
   font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 104px;
+}
+.evaluation .card {
+  padding: 32px;
+  position: relative;
+}
+.evaluation .card p {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dddddd;
+}
+.evaluation .card img {
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: 32px;
+  width: 80px;
+  height: 80px;
 }
