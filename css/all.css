@@ -13643,6 +13643,12 @@ a {
   color: #fff;
 }
 
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
 a:hover {
   color: #fff;
 }
@@ -13818,6 +13824,7 @@ main .row p {
   position: relative;
 }
 .evaluation .card p {
+  color: #221E1F;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #dddddd;
@@ -13829,4 +13836,38 @@ main .row p {
   left: 32px;
   width: 80px;
   height: 80px;
+}
+.evaluation .evaluation-str {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.evaluation .evaluation-str i {
+  color: #F5CA52;
+}
+
+footer {
+  background-image: url(../images/footer_bg.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #221E1F;
+}
+footer p {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 48px;
+}
+footer .container {
+  padding-top: 22%;
+  padding-bottom: 100px;
+}
+footer .copyright {
+  background-color: #F5F5F5;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 0;
 }
