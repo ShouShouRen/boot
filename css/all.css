@@ -13665,9 +13665,10 @@ a:hover {
 }
 
 .wrapper {
-  background-image: url(../images/bg_yellow.svg), url(../images/Ellipse3.svg), url(../images/Ellipse18.svg);
-  background-position: right top, -180px 589px, 85% 1659px;
+  background-image: url(../images/bg_yellow.svg), url(../images/Ellipse3.svg), url(../images/Ellipse18.svg), url(../images/Ellipse19.svg);
+  background-position: right top, -180px 589px, 85% 1659px, 70px 2500px;
   background-repeat: no-repeat;
+  background-size: 850px, 360px, 310px, 150px;
 }
 
 header {
@@ -13767,25 +13768,41 @@ main .row p {
 .service .service-item li:nth-child(1), .service .service-item li:nth-child(2) {
   margin-bottom: 28px;
 }
-.service .card {
+.service .service-item li .card {
   padding: 32px;
 }
-.service .round {
+.service .service-item li .round {
   border-radius: 50%;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
   width: 86px;
   height: 86px;
 }
-.service img {
+.service .service-item li img {
   padding: 15px;
 }
-.service h5 {
+.service .service-item li h5 {
   padding-top: 24px;
   font-weight: bold;
   color: #221E1F;
 }
-.service p {
+.service .service-item li p {
   padding-top: 16px;
   color: #221E1F;
+}
+.service .service-title {
+  margin: auto;
+  padding-left: 125px;
+}
+.service .service-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #221E1F;
+}
+.service .service-title p {
+  color: #221E1F;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 16px;
+  margin-bottom: 24px;
 }
