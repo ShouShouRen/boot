@@ -13914,6 +13914,17 @@ main .row p {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .service .service-title {
+    text-align: center;
+    padding: 0;
+    font-size: 28px;
+  }
+  .service p {
+    margin-bottom: 16px;
+  }
+  .service a.btn {
+    margin-bottom: 32px;
+  }
 }
 
 .evaluation h2 {
