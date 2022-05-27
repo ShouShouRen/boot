@@ -13676,12 +13676,12 @@ a:hover {
   max-width: 1085px;
 }
 
-.card {
-  max-width: 260px;
-  margin: 0 auto;
-}
-
 @media (max-width: 992px) {
+  .card {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+
   .card {
     margin-bottom: 24px;
   }
@@ -13866,8 +13866,10 @@ main .row p {
   padding-right: 16px;
 }
 
-.service .service-item li:nth-child(1), .service .service-item li:nth-child(2) {
-  margin-bottom: 28px;
+@media (min-width: 768px) {
+  .service .service-item li:nth-child(1), .service .service-item li:nth-child(2) {
+    margin-bottom: 28px;
+  }
 }
 .service .service-item li .card {
   padding: 32px;
@@ -13975,9 +13977,19 @@ footer p {
   font-weight: bold;
   padding-bottom: 48px;
 }
+@media (max-width: 768px) {
+  footer p {
+    padding-bottom: 24px;
+  }
+}
 footer .container {
   padding-top: 22%;
   padding-bottom: 100px;
+}
+@media (max-width: 768px) {
+  footer .container {
+    padding-top: 283px;
+  }
 }
 footer .copyright {
   background-color: #F5F5F5;

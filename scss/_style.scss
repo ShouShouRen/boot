@@ -43,12 +43,12 @@ a:hover {
     max-width: 1085px;
 }
 
-.card {
-    max-width: 260px;
-    margin: 0 auto;
-}
-
 @media (max-width: 992px) {
+    .card {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
     .card {
         margin-bottom: 24px;
     }
@@ -261,10 +261,12 @@ main .row {
 
 .service {
     .service-item li {
+        @media (min-width:768px) {
 
-        &:nth-child(1),
-        &:nth-child(2) {
-            margin-bottom: 28px;
+            &:nth-child(1),
+            &:nth-child(2) {
+                margin-bottom: 28px;
+            }
         }
 
         .card {
@@ -384,11 +386,17 @@ footer {
         font-size: 32px;
         font-weight: bold;
         padding-bottom: 48px;
+        @media (max-width: 768px) {
+            padding-bottom: 24px;
+        }
     }
 
     .container {
         padding-top: 22%;
         padding-bottom: 100px;
+        @media (max-width: 768px) {
+            padding-top: 283px;
+        }
     }
 
     .copyright {
