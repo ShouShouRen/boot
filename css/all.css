@@ -13661,6 +13661,10 @@ a:hover {
   background-color: #56C4C5;
 }
 
+.bg-grey {
+  background-color: #F5F5F5;
+}
+
 .hero {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -14020,9 +14024,11 @@ header h1 {
 }
 #program .pricing p {
   padding-top: 16px;
+  color: #221E1F;
 }
 #program .choose h2 {
   padding-top: 250px;
+  color: #221E1F;
 }
 #program .choose ul.btn-group {
   display: -webkit-box;
@@ -14041,4 +14047,30 @@ header h1 {
   padding-right: 36px;
   margin-left: -18px;
   margin-right: -18px;
+}
+#program .choose .card h4 {
+  padding-top: 10px;
+  padding-bottom: 16px;
+  padding-left: 29px;
+  padding-right: 19px;
+  border-bottom: 1px solid #DDD;
+  color: #221E1F;
+}
+#program .choose .card p {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #221E1F;
+}
+#program .choose .card h5 {
+  padding-top: 24px;
+  padding-left: 54px;
+  padding-right: 55px;
+  font-size: 12px;
+}
+#program .choose .card .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
