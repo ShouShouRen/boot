@@ -13666,7 +13666,7 @@ a:hover {
   padding-bottom: 100px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .hero {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -13676,10 +13676,14 @@ a:hover {
   max-width: 1085px;
 }
 
-@media (max-width: 375px) {
+.card {
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
   .card {
-    max-width: 230px;
-    margin: 0 auto;
+    margin-bottom: 24px;
   }
 }
 .wrapper {
@@ -13689,12 +13693,12 @@ a:hover {
   background-size: 850px, 360px, 310px, 150px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .wrapper {
     background: none;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .wrapper {
     background-image: url(../images/path157.svg), url(../images/Ellipse3.svg);
     background-position: center 450px, -80px 820px;
@@ -13717,7 +13721,7 @@ header h1 {
   height: 40px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   header {
     padding-bottom: 16px;
   }
@@ -13737,7 +13741,7 @@ main .row {
   padding-top: 30px;
   margin-bottom: 217px;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   main .row {
     padding-top: 32px;
     border-top: 2px solid #FFD153;
@@ -13746,7 +13750,7 @@ main .row {
 main .row .title_text {
   margin-top: 158px;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   main .row .title_text {
     margin-top: 0;
   }
@@ -13761,7 +13765,7 @@ main .row h3 {
   color: #56C4C5;
   font-weight: bold;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   main .row h3 {
     font-size: 16px;
   }
@@ -13771,7 +13775,7 @@ main .row h2 {
   color: #221E1F;
   font-weight: bold;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   main .row h2 {
     font-size: 32px;
   }
@@ -13780,7 +13784,7 @@ main .row p {
   color: #221E1F;
   font-size: 20px;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   main .row p {
     font-size: 16px;
   }
@@ -13797,7 +13801,7 @@ main .row p {
   padding-top: 24px;
   color: #221E1F;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .contact .row h3 {
     font-size: 18px;
   }
@@ -13807,7 +13811,7 @@ main .row p {
   padding-top: 24px;
   color: #747474;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .contact .row p {
     font-size: 16px;
   }
@@ -13816,7 +13820,7 @@ main .row p {
   width: 90px;
   height: 90px;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .contact .row img {
     width: 60px;
     height: 60px;
@@ -13835,10 +13839,20 @@ main .row p {
   font-size: 32px;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .role .role_title {
+    font-size: 28px;
+  }
+}
 .role .role_para {
   font-size: 20px;
   color: #221E1F;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .role .role_para {
+    font-size: 18px;
+  }
 }
 .role h5 {
   font-size: 16px;
