@@ -13666,10 +13666,22 @@ a:hover {
   padding-bottom: 100px;
 }
 
+@media (max-width: 375px) {
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .container {
   max-width: 1085px;
 }
 
+@media (max-width: 375px) {
+  .card {
+    max-width: 230px;
+    margin: 0 auto;
+  }
+}
 .wrapper {
   background-image: url(../images/bg_yellow.svg), url(../images/Ellipse3.svg), url(../images/Ellipse18.svg), url(../images/Ellipse19.svg);
   background-position: right top, -180px 589px, 85% 1659px, 70px 2500px;
@@ -13677,6 +13689,19 @@ a:hover {
   background-size: 850px, 360px, 310px, 150px;
 }
 
+@media (max-width: 375px) {
+  .wrapper {
+    background: none;
+  }
+}
+@media (max-width: 375px) {
+  .wrapper {
+    background-image: url(../images/path157.svg), url(../images/Ellipse3.svg);
+    background-position: center 450px, -80px 820px;
+    background-repeat: no-repeat;
+    background-size: 100%, 135px, 153px;
+  }
+}
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13693,6 +13718,10 @@ header h1 {
 }
 
 @media (max-width: 375px) {
+  header {
+    padding-bottom: 16px;
+  }
+
   header h1 {
     width: 130px;
     padding-top: 12px;
@@ -13708,8 +13737,19 @@ main .row {
   padding-top: 30px;
   margin-bottom: 217px;
 }
+@media (max-width: 375px) {
+  main .row {
+    padding-top: 32px;
+    border-top: 2px solid #FFD153;
+  }
+}
 main .row .title_text {
   margin-top: 158px;
+}
+@media (max-width: 375px) {
+  main .row .title_text {
+    margin-top: 0;
+  }
 }
 main .row img {
   max-width: 532px;
@@ -13721,14 +13761,29 @@ main .row h3 {
   color: #56C4C5;
   font-weight: bold;
 }
+@media (max-width: 375px) {
+  main .row h3 {
+    font-size: 16px;
+  }
+}
 main .row h2 {
   font-size: 48px;
   color: #221E1F;
   font-weight: bold;
 }
+@media (max-width: 375px) {
+  main .row h2 {
+    font-size: 32px;
+  }
+}
 main .row p {
   color: #221E1F;
   font-size: 20px;
+}
+@media (max-width: 375px) {
+  main .row p {
+    font-size: 16px;
+  }
 }
 
 .contact .row {
@@ -13742,14 +13797,30 @@ main .row p {
   padding-top: 24px;
   color: #221E1F;
 }
+@media (max-width: 375px) {
+  .contact .row h3 {
+    font-size: 18px;
+  }
+}
 .contact .row p {
   text-align: center;
   padding-top: 24px;
   color: #747474;
 }
+@media (max-width: 375px) {
+  .contact .row p {
+    font-size: 16px;
+  }
+}
 .contact .row img {
   width: 90px;
   height: 90px;
+}
+@media (max-width: 375px) {
+  .contact .row img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .role .card {

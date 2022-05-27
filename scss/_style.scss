@@ -31,9 +31,21 @@ a:hover {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+@media (max-width: 375px) {
+    .hero{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
 
 .container {
     max-width: 1085px;
+}
+@media (max-width: 375px) {
+    .card{
+        max-width: 230px;
+        margin: 0 auto;
+    }
 }
 
 .wrapper {
@@ -41,6 +53,21 @@ a:hover {
     background-position: right top, -180px 589px, 85% 1659px, 70px 2500px;
     background-repeat: no-repeat;
     background-size: 850px, 360px, 310px, 150px;
+}
+
+@media(max-width: 375px) {
+    .wrapper {
+        background: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrapper {
+        background-image: url(../images/path157.svg), url(../images/Ellipse3.svg);
+        background-position: center 450px, -80px 820px;
+        background-repeat: no-repeat;
+        background-size: 100%, 135px, 153px;
+    }
 }
 
 header {
@@ -52,26 +79,44 @@ header {
         display: inline-block;
         width: 218px;
         height: 40px;
-        
+
     }
 }
-@media(max-width: 375px){
-    header h1{
+
+@media(max-width: 375px) {
+    header {
+        padding-bottom: 16px;
+    }
+
+    header h1 {
         width: 130px;
         padding-top: 12px;
     }
-    header img{
+
+    header img {
         width: 130.84px;
         height: 24px;
     }
 }
+
 main .row {
     height: 534px;
     padding-top: 30px;
     margin-bottom: 217px;
 
+    @media(max-width :375px) {
+        padding-top: 32px;
+        border-top: 2px solid #FFD153;
+    }
+
     .title_text {
         margin-top: 158px;
+    }
+
+    @media (max-width: 375px) {
+        .title_text {
+            margin-top: 0;
+        }
     }
 
     img {
@@ -86,15 +131,32 @@ main .row {
         font-weight: bold;
     }
 
+    @media (max-width: 375px) {
+        h3 {
+            font-size: 16px;
+        }
+    }
+
     h2 {
         font-size: 48px;
         color: #221E1F;
         font-weight: bold;
     }
 
+    @media (max-width: 375px) {
+        h2 {
+            font-size: 32px;
+        }
+    }
+
     p {
         color: #221E1F;
         font-size: 20px;
+    }
+    @media (max-width: 375px) {
+        p{
+            font-size: 16px;
+        }
     }
 }
 
@@ -110,16 +172,31 @@ main .row {
         padding-top: 24px;
         color: #221E1F;
     }
+    @media (max-width: 375px) {
+        h3{
+            font-size: 18px;
+        }
+    }
 
     p {
         text-align: center;
         padding-top: 24px;
         color: #747474;
     }
-
+    @media (max-width: 375px) {
+        p{
+            font-size: 16px;
+        }
+    }
     img {
         width: 90px;
         height: 90px;
+    }
+    @media (max-width: 375px) {
+        img{
+            width: 60px;
+            height: 60px;
+        }
     }
 }
 
