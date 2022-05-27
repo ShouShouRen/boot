@@ -236,7 +236,8 @@ main .row {
     .evaluation-str {
         display: flex;
         justify-content: space-between;
-        i{
+
+        i {
             color: #F5CA52;
         }
     }
@@ -248,11 +249,13 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     color: #221E1F;
-    p{
+
+    p {
         font-size: 32px;
         font-weight: bold;
         padding-bottom: 48px;
     }
+
     .container {
         padding-top: 22%;
         padding-bottom: 100px;
