@@ -13700,10 +13700,10 @@ a:hover {
 }
 @media (max-width: 768px) {
   .wrapper {
-    background-image: url(../images/path157.svg), url(../images/Ellipse3.svg);
-    background-position: center 450px, -80px 820px;
+    background-image: url(../images/path157.svg), url(../images/Ellipse3.svg), url(../images/Ellipse18.svg), url(../images/Ellipse19.svg);
+    background-position: center 450px, -80px 820px, 300px 3250px, -70px 5200px;
     background-repeat: no-repeat;
-    background-size: 100%, 135px, 153px;
+    background-size: 100%, 135px, 153px, 150px;
   }
 }
 header {
