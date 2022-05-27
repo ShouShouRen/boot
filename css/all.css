@@ -14002,6 +14002,7 @@ header h1 {
   background-image: url(../images/pricing_bg1.svg);
   background-repeat: no-repeat;
   background-position: right top;
+  position: relative;
 }
 #program .wrapper:after {
   content: "";
@@ -14016,4 +14017,28 @@ header h1 {
 }
 #program .pricing {
   padding-top: 116px;
+}
+#program .pricing p {
+  padding-top: 16px;
+}
+#program .choose h2 {
+  padding-top: 250px;
+}
+#program .choose ul.btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+#program .choose ul.btn-group li {
+  padding-left: 36px;
+  padding-right: 36px;
+  margin-left: -18px;
+  margin-right: -18px;
 }
