@@ -13677,12 +13677,12 @@ a:hover {
 }
 
 @media (max-width: 992px) {
-  .card {
+  #index .card {
     max-width: 260px;
     margin: 0 auto;
   }
 
-  .card {
+  #index .card {
     margin-bottom: 24px;
   }
 }
@@ -13736,130 +13736,130 @@ header h1 {
     height: 24px;
   }
 }
-main .row {
+#index main .row {
   height: 534px;
   padding-top: 30px;
   margin-bottom: 217px;
 }
 @media (max-width: 768px) {
-  main .row {
+  #index main .row {
     padding-top: 32px;
     border-top: 2px solid #FFD153;
   }
 }
-main .row .title_text {
+#index main .row .title_text {
   margin-top: 158px;
 }
 @media (max-width: 768px) {
-  main .row .title_text {
+  #index main .row .title_text {
     margin-top: 0;
   }
 }
-main .row img {
+#index main .row img {
   max-width: 532px;
   height: auto;
   width: 100%;
 }
-main .row h3 {
+#index main .row h3 {
   font-size: 18px;
   color: #56C4C5;
   font-weight: bold;
 }
 @media (max-width: 768px) {
-  main .row h3 {
+  #index main .row h3 {
     font-size: 16px;
   }
 }
-main .row h2 {
+#index main .row h2 {
   font-size: 48px;
   color: #221E1F;
   font-weight: bold;
 }
 @media (max-width: 768px) {
-  main .row h2 {
+  #index main .row h2 {
     font-size: 32px;
   }
 }
-main .row p {
+#index main .row p {
   color: #221E1F;
   font-size: 20px;
 }
 @media (max-width: 768px) {
-  main .row p {
+  #index main .row p {
     font-size: 16px;
   }
 }
 
-.contact .row {
+#index .contact .row {
   padding-top: 48px;
 }
-.contact .row ul li {
+#index .contact .row ul li {
   text-align: center;
 }
-.contact .row h3 {
+#index .contact .row h3 {
   text-align: center;
   padding-top: 24px;
   color: #221E1F;
 }
 @media (max-width: 768px) {
-  .contact .row h3 {
+  #index .contact .row h3 {
     font-size: 18px;
   }
 }
-.contact .row p {
+#index .contact .row p {
   text-align: center;
   padding-top: 24px;
   color: #747474;
 }
 @media (max-width: 768px) {
-  .contact .row p {
+  #index .contact .row p {
     font-size: 16px;
   }
 }
-.contact .row img {
+#index .contact .row img {
   width: 90px;
   height: 90px;
 }
 @media (max-width: 768px) {
-  .contact .row img {
+  #index .contact .row img {
     width: 60px;
     height: 60px;
   }
 }
 
-.role .card {
+#index .role .card {
   overflow: hidden;
 }
-.role .card .card-body {
+#index .role .card .card-body {
   padding-top: 16px;
   padding-bottom: 24px;
 }
-.role .role_title {
+#index .role .role_title {
   color: #221E1F;
   font-size: 32px;
   font-weight: bold;
 }
 @media (max-width: 768px) {
-  .role .role_title {
+  #index .role .role_title {
     font-size: 28px;
   }
 }
-.role .role_para {
+#index .role .role_para {
   font-size: 20px;
   color: #221E1F;
   font-weight: bold;
 }
 @media (max-width: 768px) {
-  .role .role_para {
+  #index .role .role_para {
     font-size: 18px;
   }
 }
-.role h5 {
+#index .role h5 {
   font-size: 16px;
   color: #56C4C5;
   font-weight: bold;
 }
-.role p {
+#index .role p {
   color: #221E1F;
   padding-top: 16px;
   padding-left: 16px;
@@ -13867,42 +13867,42 @@ main .row p {
 }
 
 @media (min-width: 768px) {
-  .service .service-item li:nth-child(1), .service .service-item li:nth-child(2) {
+  #index .service .service-item li:nth-child(1), #index .service .service-item li:nth-child(2) {
     margin-bottom: 28px;
   }
 }
-.service .service-item li .card {
+#index .service .service-item li .card {
   padding: 32px;
 }
-.service .service-item li .round {
+#index .service .service-item li .round {
   border-radius: 50%;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
   width: 86px;
   height: 86px;
 }
-.service .service-item li img {
+#index .service .service-item li img {
   padding: 15px;
 }
-.service .service-item li h5 {
+#index .service .service-item li h5 {
   padding-top: 24px;
   font-weight: bold;
   color: #221E1F;
 }
-.service .service-item li p {
+#index .service .service-item li p {
   padding-top: 16px;
   color: #221E1F;
 }
-.service .service-title {
+#index .service .service-title {
   margin: auto;
   padding-left: 125px;
 }
-.service .service-title h2 {
+#index .service .service-title h2 {
   font-size: 32px;
   font-weight: bold;
   color: #221E1F;
 }
-.service .service-title p {
+#index .service .service-title p {
   color: #221E1F;
   font-size: 18px;
   line-height: 26px;
@@ -13910,42 +13910,42 @@ main .row p {
   margin-bottom: 24px;
 }
 @media (max-width: 768px) {
-  .service .row {
+  #index .service .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .service .service-title {
+  #index .service .service-title {
     text-align: center;
     padding: 0;
     font-size: 28px;
   }
-  .service p {
+  #index .service p {
     margin-bottom: 16px;
   }
-  .service a.btn {
+  #index .service a.btn {
     margin-bottom: 32px;
   }
 }
 
-.evaluation h2 {
+#index .evaluation h2 {
   color: #221E1F;
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 104px;
 }
-.evaluation .card {
+#index .evaluation .card {
   padding: 32px;
   position: relative;
 }
-.evaluation .card p {
+#index .evaluation .card p {
   color: #221E1F;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #dddddd;
 }
-.evaluation .card img {
+#index .evaluation .card img {
   display: block;
   position: absolute;
   top: -40px;
@@ -13953,7 +13953,7 @@ main .row p {
   width: 80px;
   height: 80px;
 }
-.evaluation .evaluation-str {
+#index .evaluation .evaluation-str {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13961,37 +13961,37 @@ main .row p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.evaluation .evaluation-str i {
+#index .evaluation .evaluation-str i {
   color: #F5CA52;
 }
 
-footer {
+#index footer {
   background-image: url(../images/footer_bg.png);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #221E1F;
 }
-footer p {
+#index footer p {
   font-size: 32px;
   font-weight: bold;
   padding-bottom: 48px;
 }
 @media (max-width: 768px) {
-  footer p {
+  #index footer p {
     padding-bottom: 24px;
   }
 }
-footer .container {
+#index footer .container {
   padding-top: 22%;
   padding-bottom: 100px;
 }
 @media (max-width: 768px) {
-  footer .container {
+  #index footer .container {
     padding-top: 283px;
   }
 }
-footer .copyright {
+#index footer .copyright {
   background-color: #F5F5F5;
   text-align: center;
   font-size: 16px;
