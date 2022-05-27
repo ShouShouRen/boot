@@ -13692,6 +13692,17 @@ header h1 {
   height: 40px;
 }
 
+@media (max-width: 375px) {
+  header h1 {
+    width: 130px;
+    padding-top: 12px;
+  }
+
+  header img {
+    width: 130.84px;
+    height: 24px;
+  }
+}
 main .row {
   height: 534px;
   padding-top: 30px;
@@ -13762,7 +13773,6 @@ main .row p {
   font-size: 16px;
   color: #56C4C5;
   font-weight: bold;
-  color: #221E1F;
 }
 .role p {
   color: #221E1F;
