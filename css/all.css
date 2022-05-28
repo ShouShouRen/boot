@@ -14048,7 +14048,7 @@ header h1 {
   margin-left: -18px;
   margin-right: -18px;
 }
-#program .choose .card h4 {
+#program .choose .card .card-title {
   padding-top: 10px;
   padding-bottom: 16px;
   padding-left: 29px;
@@ -14056,7 +14056,7 @@ header h1 {
   border-bottom: 1px solid #DDD;
   color: #221E1F;
 }
-#program .choose .card p {
+#program .choose .card .card-para {
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
