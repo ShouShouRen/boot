@@ -457,7 +457,7 @@ header {
                 margin-right: -18px;
             }
         }
-        .card{
+        .card-body{
             .card-title{
                 padding-top: 10px;
                 padding-bottom: 16px;
@@ -494,6 +494,21 @@ header {
             }
             .to{
                 font-size: 29px;
+            }
+            .menu-list{
+                padding-top: 32px;
+                padding-left: 29px;
+                li{
+                    padding-top: 16px;
+                }
+                img{
+                    padding-right: 12.94px;
+                }
+            }
+            a{
+                margin-left: 196px;
+                margin-top: 32px;
+                margin-bottom: 32px;
             }
         }
     }
