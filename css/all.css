@@ -14118,6 +14118,9 @@ header h1 {
   color: #56C4C5;
   font-size: 18px;
 }
+#program .collapse-container .collapse-content p {
+  padding-top: 24px;
+}
 #program .collapse-container .collapse-title {
   display: block;
   position: relative;
@@ -14147,7 +14150,15 @@ header h1 {
 }
 #program .collapse-container .collapse-box i:before {
   content: "+ ";
+  font-size: 32px;
 }
 #program .collapse-container .collapse-box.active i:before {
   content: "- ";
+  font-size: 32px;
+}
+#program .copyright {
+  background-color: #F5F5F5;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 0;
 }
