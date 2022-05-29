@@ -14068,6 +14068,13 @@ header h1 {
   padding-right: 55px;
   font-size: 12px;
 }
+@media (max-width: 768px) {
+  #program .choose .card-body h5 {
+    padding-left: 28px;
+    padding-right: 27px;
+    padding-top: 16px;
+  }
+}
 #program .choose .card-body .text-subtitle-pri {
   font-size: 32px;
   color: #56C4C5;
@@ -14101,6 +14108,11 @@ header h1 {
   margin-left: 196px;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+@media (max-width: 768px) {
+  #program .card {
+    margin-bottom: 24px;
+  }
 }
 #program .collapse-container {
   position: relative;

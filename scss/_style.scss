@@ -487,6 +487,11 @@ header {
                 padding-left: 54px;
                 padding-right: 55px;
                 font-size: 12px;
+                @media (max-width:768px) {
+                    padding-left: 28px;
+                    padding-right: 27px;
+                    padding-top: 16px;
+                }
             }
 
             .text-subtitle-pri {
@@ -528,6 +533,11 @@ header {
                 margin-top: 32px;
                 margin-bottom: 32px;
             }
+        }
+    }
+    @media (max-width: 768px) {
+        .card{
+            margin-bottom: 24px;
         }
     }
 
