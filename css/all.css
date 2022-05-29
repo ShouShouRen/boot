@@ -14102,3 +14102,52 @@ header h1 {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+#program .collapse-container {
+  position: relative;
+  width: 100%;
+  border-top: 0;
+  cursor: pointer;
+  color: #221E1F;
+}
+#program .collapse-container .collapse-content {
+  display: none;
+  padding-left: 36px;
+  padding-bottom: 32px;
+}
+#program .collapse-container .collapse-content h5 {
+  color: #56C4C5;
+  font-size: 18px;
+}
+#program .collapse-container .collapse-title {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #221E1F;
+  cursor: pointer;
+  background: #fefefe;
+}
+#program .collapse-container .collapse-box {
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+#program .collapse-container .collapse-box i {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-style: normal;
+  font-size: 26px;
+  color: #56C4C5;
+}
+#program .collapse-container .collapse-box i:before {
+  content: "+ ";
+}
+#program .collapse-container .collapse-box.active i:before {
+  content: "- ";
+}

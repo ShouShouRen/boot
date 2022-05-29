@@ -29,7 +29,9 @@
             </div>
         </main>
         <section class="choose container">
-            <h2 class="text-center fw-bold">彈性選擇，提供您選擇最適合的方案</h2>
+            <div class="col-12">
+                <h2 class="text-center fw-bold">彈性選擇，提供您選擇最適合的方案</h2>
+            </div>
             <ul class="btn-group">
                 <li><a href="#" class="btn btn-theme">10000位</a></li>
                 <li><a href="#" class="btn btn-theme">15000位</a></li>
@@ -140,7 +142,41 @@
                 </div>
             </div>
         </section>
+        <section class="common hero container">
+            <div class="col-12">
+                <h2 class="text-center fw-bold common-title" style="margin-bottom: 48px;">常見問題</h2>
+            </div>
+            <div class="collapse-container">
+                <div class="collapse-box">
+                    <h4 class="collapse-title"><i></i>我要怎麼變更方案？</h4>
+                    <div class="collapse-content">
+                        <h5 class="fw-bold">非上班日有客服支援嗎？</h5>
+                        <p>當然哦！我們錢都收了，不會拋棄你的！<br>請您直接來我們公司，我們假日也都在辦公室。</p>
+                    </div>
+                </div>
+
+                <div class="collapse-box">
+                    <h4 class="collapse-title"><i></i>如果我沒有LINE官方帳號怎麼辦？</h4>
+                    <div class="collapse-content">
+                        <h5 class="fw-bold">非上班日有客服支援嗎？</h5>
+                        <p>當然哦！我們錢都收了，不會拋棄你的！<br>請您直接來我們公司，我們假日也都在辦公室。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
+<script src="./js/jquery-3.5.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("body").on("click", function (event) {
+            console.log($(event.target))
+            if ($(event.target).hasClass("collapse-title")) {
+                $(event.target).parent(".collapse-box").toggleClass("active");
+                $(event.target).siblings(".collapse-content").slideToggle("300");
+            }
+        });
+    });
+</script>
 
 </html>
