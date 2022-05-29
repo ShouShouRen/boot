@@ -14068,6 +14068,16 @@ header h1 {
   padding-right: 55px;
   font-size: 12px;
 }
+#program .choose .card .text-subtitle-pri {
+  font-size: 32px;
+  color: #56C4C5;
+  display: inline;
+}
+#program .choose .card .text-subtitle-blc {
+  font-size: 32px;
+  color: #221E1F;
+  display: inline;
+}
 #program .choose .card .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
