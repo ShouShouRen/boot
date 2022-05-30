@@ -428,13 +428,16 @@ header {
         &:after {
             content: '';
             position: absolute;
-            top: 90px;
+            top:0;
             right: 0;
             width: 100%;
             height: 495px;
             border-radius: 0px 0px 0px 300px;
             background-color: #F7F9FD;
             z-index: -1;
+            @media (max-width: 768px) {
+                top: 90px;
+            }
         }
     }
     @media(max-width :768px) {
@@ -463,6 +466,9 @@ header {
         h2 {
             padding-top: 250px;
             color: #221E1F;
+            @media (max-width: 768px) {
+                padding-top: 310px;
+            }
         }
 
         ul.btn-group {

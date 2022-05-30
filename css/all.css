@@ -14019,13 +14019,18 @@ header h1 {
 #program .wrapper:after {
   content: "";
   position: absolute;
-  top: 90px;
+  top: 0;
   right: 0;
   width: 100%;
   height: 495px;
   border-radius: 0px 0px 0px 300px;
   background-color: #F7F9FD;
   z-index: -1;
+}
+@media (max-width: 768px) {
+  #program .wrapper:after {
+    top: 90px;
+  }
 }
 @media (max-width: 768px) {
   #program header {
@@ -14052,6 +14057,11 @@ header h1 {
 #program .choose h2 {
   padding-top: 250px;
   color: #221E1F;
+}
+@media (max-width: 768px) {
+  #program .choose h2 {
+    padding-top: 310px;
+  }
 }
 #program .choose ul.btn-group {
   display: -webkit-box;
