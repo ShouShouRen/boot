@@ -14008,6 +14008,14 @@ header h1 {
   background-position: right top;
   position: relative;
 }
+@media (max-width: 768px) {
+  #program .wrapper {
+    background-image: url(../images/pricing_bg1.svg);
+    background-repeat: no-repeat;
+    background-position: 10% 3.9%;
+    background-size: 100%;
+  }
+}
 #program .wrapper:after {
   content: "";
   position: absolute;
@@ -14019,8 +14027,18 @@ header h1 {
   background-color: #F7F9FD;
   z-index: -1;
 }
+@media (max-width: 768px) {
+  #program header {
+    border-bottom: 2px solid #FFD153;
+  }
+}
 #program .pricing {
   padding-top: 116px;
+}
+@media (max-width: 768px) {
+  #program .pricing {
+    padding: 0;
+  }
 }
 #program .pricing p {
   padding-top: 16px;

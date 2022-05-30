@@ -419,7 +419,12 @@ header {
         background-repeat: no-repeat;
         background-position: right top;
         position: relative;
-
+        @media (max-width: 768px) {
+            background-image: url(../images/pricing_bg1.svg);
+            background-repeat: no-repeat;
+            background-position: 10% 3.9%;
+            background-size: 100%;
+        }
         &:after {
             content: '';
             position: absolute;
@@ -432,10 +437,17 @@ header {
             z-index: -1;
         }
     }
+    @media(max-width :768px) {
+        header{
+            border-bottom: 2px solid #FFD153;
+        }
+    }
 
     .pricing {
         padding-top: 116px;
-
+        @media (max-width: 768px) {
+            padding: 0;
+        }
         p {
             padding-top: 16px;
             color: #221E1F;
@@ -487,6 +499,7 @@ header {
                 padding-left: 54px;
                 padding-right: 55px;
                 font-size: 12px;
+
                 @media (max-width:768px) {
                     padding-left: 28px;
                     padding-right: 27px;
@@ -535,8 +548,9 @@ header {
             }
         }
     }
+
     @media (max-width: 768px) {
-        .card{
+        .card {
             margin-bottom: 24px;
         }
     }
@@ -601,6 +615,7 @@ header {
             font-size: 32px;
         }
     }
+
     .copyright {
         background-color: #F5F5F5;
         text-align: center;
