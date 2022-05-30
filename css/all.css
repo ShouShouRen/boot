@@ -14010,19 +14010,19 @@ header h1 {
 }
 @media (max-width: 768px) {
   #program .wrapper {
-    background-image: url(../images/pricing_bg1.svg);
+    background-image: url(../images/pricing_bg1_mob.svg);
     background-repeat: no-repeat;
-    background-position: 10% 3.9%;
+    background-position: 10% 90px;
     background-size: 100%;
   }
 }
 #program .wrapper:after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 90px;
   right: 0;
   width: 100%;
-  height: 470px;
+  height: 495px;
   border-radius: 0px 0px 0px 300px;
   background-color: #F7F9FD;
   z-index: -1;
@@ -14037,7 +14037,12 @@ header h1 {
 }
 @media (max-width: 768px) {
   #program .pricing {
-    padding: 0;
+    padding-top: 47px;
+    padding-left: 20px;
+  }
+  #program .pricing h2 {
+    font-size: 32px;
+    margin: 0;
   }
 }
 #program .pricing p {
