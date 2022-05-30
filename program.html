@@ -9,6 +9,7 @@
 </head>
 
 <body id="program">
+    <img class="top" src="./images/top.svg" alt="top">
     <div class="wrapper">
         <header class="container d-flex">
             <h1>
@@ -169,17 +170,6 @@
     </div>
 </body>
 <script src="./js/jquery-3.5.0.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $("body").on("click", function (event) {
-            console.log($(event.target))
-            event.preventDefault();
-            if ($(event.target).hasClass("collapse-title")) {
-                $(event.target).parent(".collapse-box").toggleClass("active");
-                $(event.target).siblings(".collapse-content").slideToggle("300");
-            }
-        });
-    });
-</script>
+<script src="./js/all.js"></script>
 
 </html>

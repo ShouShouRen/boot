@@ -14002,6 +14002,13 @@ header h1 {
   padding: 16px 0;
 }
 
+#program .top {
+  position: fixed;
+  right: 40px;
+  top: 60vh;
+  cursor: pointer !important;
+  z-index: 10;
+}
 #program .wrapper {
   background-image: url(../images/pricing_bg1.svg);
   background-repeat: no-repeat;
