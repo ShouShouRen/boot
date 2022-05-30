@@ -57,7 +57,13 @@ a:hover {
         margin-bottom: 24px;
     }
 }
-
+.top{
+    position: fixed;
+    right: 40px;
+    top: 60vh;
+    cursor: pointer !important;
+    z-index: 10;
+}
 #index .wrapper {
     background-image: url(../images/bg_yellow.svg), url(../images/Ellipse3.svg), url(../images/Ellipse18.svg), url(../images/Ellipse19.svg);
     background-position: right top, -180px 589px, 85% 1659px, 70px 2500px;
