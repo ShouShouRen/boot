@@ -13661,6 +13661,16 @@ a:hover {
   background-color: #56C4C5;
 }
 
+.btn-price {
+  color: #56C4C5;
+  outline: #56C4C5 1px solid;
+}
+
+.btn-price:hover, .btn-price.active {
+  background: #56C4C5;
+  color: #FFFFFF;
+}
+
 .bg-grey {
   background-color: #F5F5F5;
 }

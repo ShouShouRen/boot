@@ -44,7 +44,9 @@ const changes = [{
 
 $(document).ready(function () {
     $('button.btn-price').on("click",function () {
+        $('.btn-price').removeClass('active');
         const idx = $(this).attr('index')
+        $(this).addClass('active');
         $('p.text-subtitle-pri').text(changes[idx].userNum)
         $('.base > p.base-price').text(changes[idx].basePrice)
         $('.pro > .pro-price').text(changes[idx].proPrice)
