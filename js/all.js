@@ -3,7 +3,7 @@ $('.top').on("click", function (event) {
 })
 
 $(document).ready(function () {
-    $(".collapse-title").on("click", function (event) {
+    $(".collapse-box").on("click", function (event) {
         console.log($(event.target))
         event.preventDefault();
         if ($(event.target).hasClass("collapse-title")) {
@@ -44,7 +44,7 @@ const changes = [{
 
 $(document).ready(function () {
     $('button.btn-price').on("click",function () {
-        const idx = $(this).index()
+        const idx = $(this).attr('index')
         $('p.text-subtitle-pri').text(changes[idx].userNum)
         $('.base > p.base-price').text(changes[idx].basePrice)
         $('.pro > .pro-price').text(changes[idx].proPrice)
