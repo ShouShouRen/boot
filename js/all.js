@@ -5,6 +5,8 @@ $('.top').on("click", function (event) {
 $(document).ready(function () {
     $(".collapse-box").on("click", function (event) {
         // console.log($(event.target))
+        // $(this).removeClass('active');
+        // $(this).addClass('active');
         event.preventDefault();
         if ($(event.target).hasClass("collapse-title")) {
             $(event.target).parent(".collapse-box").toggleClass("active");

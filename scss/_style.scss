@@ -26,14 +26,18 @@ a:hover {
 .btn-theme {
     background-color: #56C4C5;
 }
-.btn-price{
+
+.btn-price {
     color: #56C4C5;
     outline: #56C4C5 1px solid;
 }
-.btn-price:hover, .btn-price.active {
+
+.btn-price:hover,
+.btn-price.active {
     background: #56C4C5;
     color: #FFFFFF;
-  }
+}
+
 .bg-grey {
     background-color: #F5F5F5;
 }
@@ -64,13 +68,15 @@ a:hover {
         margin-bottom: 24px;
     }
 }
-.top{
+
+.top {
     position: fixed;
     right: 40px;
     top: 60vh;
     cursor: pointer !important;
     z-index: 10;
 }
+
 #index .wrapper {
     background-image: url(../images/bg_yellow.svg), url(../images/Ellipse3.svg), url(../images/Ellipse18.svg), url(../images/Ellipse19.svg);
     background-position: right top, -180px 589px, 85% 1659px, 70px 2500px;
@@ -427,13 +433,14 @@ header {
 }
 
 #program {
-    .top{
+    .top {
         position: fixed;
         right: 40px;
         top: 60vh;
         cursor: pointer !important;
         z-index: 10;
     }
+
     .wrapper {
         background-image: url(../images/pricing_bg1.svg);
         background-repeat: no-repeat;
@@ -498,6 +505,7 @@ header {
                 padding-top: 310px;
             }
         }
+
         ul.btn-group {
             display: flex;
             flex-wrap: wrap;
@@ -612,6 +620,7 @@ header {
             p {
                 padding-top: 24px;
             }
+
         }
 
         .collapse-title {
@@ -624,19 +633,6 @@ header {
             font-size: 18px;
             font-weight: normal;
             color: #221E1F;
-            cursor: pointer;
-            background: #fefefe;
-        }
-        .collapse-title.active {
-            display: block;
-            position: relative;
-            margin: 0;
-            padding-top: 16px;
-            padding-bottom: 16px;
-            padding-left: 32px;
-            font-size: 18px;
-            font-weight: normal;
-            color: #56C4C5;
             cursor: pointer;
             background: #fefefe;
         }
@@ -661,9 +657,15 @@ header {
             font-size: 32px;
         }
 
-        .collapse-box.active i:before {
-            content: '- ';
-            font-size: 32px;
+        .collapse-box.active {
+            h4 {
+                color: #56C4C5;
+            }
+
+            i:before {
+                content: '- ';
+                font-size: 32px;
+            }
         }
     }
 
