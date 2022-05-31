@@ -12,3 +12,41 @@ $(document).ready(function () {
         }
     });
 });
+
+
+
+const changes = [{
+    "userNum": "10000",
+    "basePrice": 600,
+    "proPrice": 1600,
+},
+{
+    "userNum": "15000",
+    "basePrice": 1200,
+    "proPrice": 2400,
+},
+{
+    "userNum": "20000",
+    "basePrice": 1800,
+    "proPrice": 3200,
+},
+{
+    "userNum": "25000",
+    "basePrice": 2400,
+    "proPrice": 4000,
+},
+{
+    "userNum": ">25000",
+    "basePrice": 3000,
+    "proPrice": 4800,
+}
+]
+// price btn
+$(document).ready(function () {
+    $('button.btn-price').click(function () {
+        const idx = $(this).index()
+        $('p.text-subtitle-pri').text(changes[idx].userNum)
+        $('.base > p.base-price').text(changes[idx].basePrice)
+        $('.pro > .pro-price').text(changes[idx].proPrice)
+    });
+});
