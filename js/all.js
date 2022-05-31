@@ -2,16 +2,16 @@ $('.top').on("click", function (event) {
     $("html,body").scrollTop(0);
 })
 
-$(document).ready(function () {
-    $("body").on("click", function (event) {
-        console.log($(event.target))
-        event.preventDefault();
-        if ($(event.target).hasClass("collapse-title")) {
-            $(event.target).parent(".collapse-box").toggleClass("active");
-            $(event.target).siblings(".collapse-content").slideToggle("300");
-        }
-    });
-});
+// $(document).ready(function () {
+//     $(".collapse-title").on("click", function (event) {
+//         console.log($(event.target))
+//         event.preventDefault();
+//         if ($(event.target).hasClass("collapse-title")) {
+//             $(event.target).parent(".collapse-box").toggleClass("active");
+//             $(event.target).siblings(".collapse-content").slideToggle("300");
+//         }
+//     });
+// });
 
 
 
@@ -41,7 +41,7 @@ const changes = [{
     "proPrice": 4800,
 }
 ]
-// price btn
+
 $(document).ready(function () {
     $('button.btn-price').click(function () {
         const idx = $(this).index()
