@@ -13956,47 +13956,40 @@ header h1 {
   }
 }
 
-#index .evaluation {
-  /* 調整 swiper 容器 */
-  /* 將底部 pagination 分頁的 active 狀態改為想要的樣式 */
-  /* 讓分頁圓點移至下方 */
-}
 #index .evaluation h2 {
   color: #221e1f;
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 104px;
 }
-#index .evaluation .card-shadow {
-  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
-          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+#index .evaluation .card {
+  padding: 32px;
+  position: relative;
 }
-#index .evaluation .swiper {
-  padding: 60px 16px 0 0;
+#index .evaluation .card p {
+  color: #221E1F;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dddddd;
 }
-#index .evaluation .swiper-wrapper {
-  padding: 0 0 0 8px;
-}
-#index .evaluation .swiper-slide {
-  height: inherit;
-}
-#index .evaluation .swiper-pagination-bullet-active {
-  width: 20px;
-  border-radius: 8px;
-}
-#index .evaluation .swiper-pagination {
-  position: static;
-  margin-top: 24px;
-}
-#index .evaluation .img-frame {
+#index .evaluation .card img {
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: 32px;
   width: 80px;
   height: 80px;
-  /*  調整人物頭像位置 */
-  top: -50px;
 }
-#index .evaluation .icon-star {
-  width: 16px;
-  height: 16px;
+#index .evaluation .evaluation-str {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#index .evaluation .evaluation-str i {
+  color: #F5CA52;
 }
 
 #index footer {
